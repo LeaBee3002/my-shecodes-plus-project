@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/98fa2514fa.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>Weather App</title>
   </head>
@@ -13,6 +17,24 @@
         <input type="submit" value="search" />
       </form>
     </header>
+    <main>
+      <div class="current-weather">
+        <div>
+          <h1 class="current-city">Kansas</h1>
+          <p class="current-weather-details">
+            <div class="current-day">Tuesday <span class="current-time">1:00, </span><span class="weather">Cloudy</span></div>
+            Humidity: <span class="humidity">40%</span> Wind: <span class="wind-speed">11 mph</span>
+          </p>
+        </div>
+        <div class="current-temperature">
+            <span class="current-weather-icon"
+              ><i class="fa-solid fa-cloud fa-bounce"></i>
+            </span>
+            <span class="current-weather-value">71</span>
+            <span class="current-weather-unit">°F</span>
+        </div>
+      </div>
+    </main>
   </div>
   <footer>
     <p>
