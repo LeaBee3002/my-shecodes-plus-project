@@ -35,6 +35,7 @@ header {
 }
 
 .current-weather {
+  color: #406b8c;
   padding: 30px;
 }
 .current-weather h1 {
