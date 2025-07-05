@@ -34,8 +34,12 @@ header {
   border-radius: 10px;
 }
 
+.current-weather {
+  padding: 30px;
+}
 .current-weather h1 {
   color: white;
+  margin: 0;
   font-size: 40px;
 }
 
